@@ -1,0 +1,32 @@
+{
+  "name": "rest_api_server_javharkka",
+  "version": "1.0.0",
+  "description": "REST API Harjoitustyö opettajalle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colonity/Rest_API_Server_JAVHarkka.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Jarno Viirumäki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colonity/Rest_API_Server_JAVHarkka/issues"
+  },
+  "homepage": "https://github.com/Colonity/Rest_API_Server_JAVHarkka#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
